@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F71B7" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/id_backtop"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#3F71B7"
+                android:gravity="center"
+                android:text=" 猜猜我几岁！"
+                android:textColor="#fff9b3"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/id_photo"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+            <Gallery
+                android:id="@+id/id_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageSwitcher
+                android:id="@+id/id_imageSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" >
+            </ImageSwitcher>
+
+            <ImageButton
+                android:id="@+id/id_getImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/getimage" />
+
+            <TextView
+                android:id="@+id/id_detect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#ae750a"
+                android:gravity="center"
+                android:height="40dp"
+                android:text="点击开始计算"
+                android:textColor="#fff9b3"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/bottom_hint"
+                android:gravity="center"
+                android:text="刷脸神器"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/id_waiting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/id_age_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hint"
+            android:drawableLeft="@drawable/male"
+            android:gravity="center"
+            android:text="567"
+            android:textColor="#ffff00ff"
+            android:textSize="22sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</RelativeLayout>
