@@ -16,7 +16,7 @@
 ###（3）下载SDK
 &emsp;&emsp;&nbsp;其实在该项目中，你不需要进行这一步操作，项目中已经集成了Face++的Java(Android)SDK了。如果你想要在其他平台下进行开发，Face++也提供了Python、iOS、PHP等SDK。可以到以下地方进行下载：
 ![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/7.png)<br/><br/>
-###（4）编译运行项目
+###（4）运行项目
 &emsp;&emsp;&nbsp;通过以上步骤，你就可以进行编译运行项目了。期待你的code。
 ##3.开发建议
 &emsp;&emsp;&nbsp;程序可能还存在bug，你也可以通过Face++提供的其他接口为App增加功能模块，你有的任何创意和想法都可以来实现。希望这个开源项目可以在大家的努力下越来越好,期待你的code。
@@ -27,3 +27,33 @@
 ![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/3.jpg)<br/><br/>
 ##5.技术博客
 我的个人技术博客：[http://blog.csdn.net/chenyufeng1991](http://blog.csdn.net/chenyufeng1991) 。欢迎大家访问！
+
+#Introduce in English
+&emsp;&emsp;&nbsp;This project is an Android app based on Face++ SDK which could detect people face through photos.The app could recognize people's gender,age and the number of people in picture.This app is simulated to Microsoft's web application called HowOld.At present,the app is sold on Peasecod,Meizu App Market,Sougou Assistant.But now,I decide to opensource this project which for many Android App developers and developers who involving in face detect app.At the same time,the project has bugs and lack of some function modules,which I hope developers could contribute your nice code to this app.You could click fork button in the upper right corner to acquire project to you Github repo,or click star button to focus on project progress.
+##1.Project Introduce
+&emsp;&emsp;&nbsp;Some time ago,Microsoft launch a popular product called HowOld,which could detect the number of people in photo,people's gender and age.But just a web application without an Android app.My project is an app running on Android OS has the same function with HowOld.You just select a photo in you phone's gallery,then will be draw out quantity,gender and age in former photo.The main interface as following:
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/1.jpg)<br/><br/>
+##2.Development Guideline
+&emsp;&emsp;&nbsp;Consider development efficiency and other factors,I choose the domestic [Face++](http://www.faceplusplus.com.cn/) instead of Microsoft's face recognition interface.Face++ could provide much service,which could simplify the project development.
+###(1)Create Application
+&emsp;&emsp;&nbsp;As the need of development,I would like to suggest that create an account in [Face++ official website](http://www.faceplusplus.com.cn/).Then create an application ,bacause we need to use API Key and API Secret.How to create an application as following:
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/4.png)<br/><br/>
+###(2)Obtain API Key and API Secret
+&emsp;&emsp;&nbsp;Through step 1,you can get API Key and API Secret.
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/5.png)<br/><br/>
+Then copy to project :
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/6.png)<br/><br/>
+###(3)Download SDK
+&emsp;&emsp;&nbsp;In fact,you don't need this step operation.Because the project already integrate the Face++ Java(Android)SDK.If you want to develop product in other platform,Face++ also provide Python SDK,iOS SDK,PHP SDK and so on.You can download SDK as following:
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/7.png)<br/><br/>
+###(4)Run Project
+&emsp;&emsp;&nbsp;So far,you could run the app on your smart mobile phone or simulators.Expect your code.
+##3.Development Suggestion
+&emsp;&emsp;&nbsp;The program maybe has bugs,you could use other interface about Face++ to add function module.If you have wonderful idea,just coding and pull request.I hope this opensource project will better in everyone's efforts.I expect you code.
+##4.Operation Effect
+###(1)Select Photos
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/2.jpg)<br/><br/>
+###(2)Photo Detect
+![Alt text](https://github.com/chenyufeng1991/Android-HowOld/raw/master/Screenshots/3.jpg)<br/><br/>
+##5.Technology Blog	
+My personal technology blog:[http://blog.csdn.net/chenyufeng1991](http://blog.csdn.net/chenyufeng1991).Welcome to visit.
